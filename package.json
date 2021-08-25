@@ -1,0 +1,27 @@
+{
+	"name": "licensing_system",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"prod": "pm2 start index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"express": "^4.17.1",
+		"helmet": "^4.6.0",
+		"pg": "^8.7.1"
+	},
+	"devDependencies": {
+		"dotenv": "^10.0.0",
+		"nodemon": "^2.0.12",
+		"pm2": "^5.1.1"
+	}
+}
